@@ -1,0 +1,21 @@
+#app {
+    padding: 2rem;
+}
+table {
+    margin: auto;
+}
+table>tr>th {
+    min-width: 100px;
+    padding: 10px;
+}
+table>tr>td {
+    text-align: center;
+    min-width: 100px;
+    padding: 10px;
+}
+table>tr:nth-child(odd) {
+    background-color: #fff;
+}
+table>tr:nth-child(even) {
+    background-color: #ddd;
+}
